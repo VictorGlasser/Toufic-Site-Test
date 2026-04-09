@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Assignment 2</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+
+<link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
+
+<noscript><link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" /></noscript>
+
+<style>
+button {
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+
+}
+table {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+tr:hover {background-color: #ddd;}
+
+td {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+
+th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: yellow;
+color: black;
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+a:focus-visible {
+  outline: 2px solid #23364b;
+}
+
+#myDIV {
+  width: 70%;
+  padding: 5px 15px;
+  text-align: left;
+  background-color: #545309;
+  margin: 15px;
+}
+
+</style>
+
+<!-- Left and right links-->
+<style>
+  .link-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* Switch visual order */
+  .left-link {
+    order: 2; /* appears second visually */
+  }
+
+  .right-link {
+    order: 1; /* appears first visually */
+  }
+
+  a {
+    font-size: 18px;
+  }
+</style>
+
+
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+
+<nav>
+<ul id="wb-tphp">
+<li class="wb-slc"><a class="wb-sl" href="#cont">Skip to main content</a></li>
+</nav>
+
+<header>
+<div id="wb-bnr" class="container">
+<div class="row">
+<div class="brand col-xs-9 col-sm-5 col-md-4">
+<img src="https://i.pinimg.com/474x/5e/56/57/5e5657e2746c9149bee144d6b20c73b4.jpg" alt="" property="logo" />
+
+
+<link property="logo" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" />
+</div>
+
+
+</div>
+</div>
+<hr>
+<div class="container">
+<div class="row"><div class="col-md-8">
+<nav class="gcweb-menu" typeof="SiteNavigationElement">
+<h2 class="wb-inv">Menu</h2>
+<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+<ul role="menu" aria-orientation="vertical">
+<li role="presentation"><a role="menuitem" href="#">Link 1</a></li>
+<li role="presentation"><a role="menuitem" href="#">Link 2</a></li>
+<li role="presentation"><a role="menuitem" href="#">Link 3</a></li>
+
+</ul>
+</nav>
+
+</div></div>
+</div>
+
+
+
+</header>
+
+<main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement"><h1 property="name" id="wb-cont">Campaign name</h1>
+
+
+<div class="row">
+<section>
+<p>Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by the artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. His origin story features him swearing vengeance against criminals after witnessing the murder of his parents, Thomas and Martha, as a child, a vendetta tempered by the ideal of justice. He trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekicks Robin and Batgirl; allies Alfred Pennyworth and James Gordon; love interest Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the Joker. For source, <a href="https://en.wikipedia.org/wiki/Batman">click here </a>.</p>
+</section>
+</div>
+
+
+<h2>Subscribe to batman mailling list</h2>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <button id="goBtn" class="w3-button" style="background-color:green;">GO</button>
+  <button class="w3-button" style="background-color:red;">Cancel</button>
+</form>
+
+<h2>An intresting link</h2>
+<p>
+<span 
+  role="link"
+  aria-label="Ouvrir Google dans une nouvelle fenêtre"
+  onclick="window.open('https://www.google.com', '_blank')"
+  onkeydown="if(event.key === 'Enter' || event.key === ' ') { 
+               window.open('https://www.google.com', '_blank'); 
+             }"
+  style="color: blue; text-decoration: underline; cursor: pointer;"
+>
+  Ouvrir Google
+</span>
+</p>
+
+
+<h2>A serie of buttons</h2>
+<div id="trap" style="padding:20px; border:3px solid red; width:350px; margin-bottom:20px;">
+  <button id="b1">Bouton 1</button>
+  <button id="b2">Bouton 2</button>
+  <button id="b3">Bouton 3</button>
+  <button id="b4">Bouton 4</button>
+  <button id="b5">Bouton 5</button>
+</div>
+
+<h2>Hidden link</h2>
+<p>To access the secret website, click the H key</p>
+
+
+<h2>Logos</h2>
+
+<p>A sample of various logos durant the years</p>
+<div class="row">
+<section class="col-md-4"><a href="https://www.google.com" target="_blank">Click me 1</a></section>
+<section class="col-md-4"><a href="https://www.google.com" target="_blank" tabindex="-1">Can you get to me?</a></section>
+<section class="col-md-4"><a href="https://www.google.com" target="_blank">Click me 2</a></section>
+</div>
+
+
+
+<h2>Left and right links</h2>
+<div class="link-container">
+  <a href="https://www.google.com" target="_blank" class="left-link">Left link</a>
+  <a href="https://www.google.com" target="_blank" class="right-link">Right link</a>
+</div>
+
+
+<h2>How to become a Batman</h2>
+
+<p>Becoming Batman would require more than just physical strength; it would involve developing a wide range of skills, intelligence, and resources. Here are six steps to becoming like Batman:</p>
+
+<div class="row wb-eqht">
+<section class="col-lg-4 col-md-6">
+<h3 class="h5">Step 1: Master Martial Arts</h3>
+<p>Train in various martial arts disciplines like jiu-jitsu, kung fu, krav maga, and ninjutsu to excel in hand-to-hand combat. Batman is a master of multiple fighting styles.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5">Step 3: Develop Detective Skills</h3>
+<p>Batman is often called the "World's Greatest Detective." Study forensic science, criminology, and psychology to sharpen your mind and solve complex problems.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5">Step 5: Cultivate Mental Discipline and Strategy</h3>
+<p>Batman is known for his mental resilience, tactical genius, and preparation. Train your mind through meditation, strategic thinking, and problem-solving exercises.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5">Step 2: Build Peak Physical Fitness</h3>
+<p>Attain peak physical condition with strength, agility, endurance, and flexibility through intense physical training and exercise regimes.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5">Step 4: Acquire Advanced Gadgets and Technology</h3>
+<p>Batman uses cutting-edge technology and gadgets. Learn engineering, computer science, and technology development to create tools that assist in crime-fighting.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5">Step 6: Amass Resources</h3>
+<p>Batman’s wealth enables his crime-fighting. While becoming a billionaire may not be realistic, developing strong financial resources or backing could help you acquire the tools and capabilities you’d need.</p>
+</section>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+<h2>Other super heros</h2>
+
+<p>The best super heros are listed in the middle</p>
+
+<div class="row wb-eqht">
+<section class="col-lg-4 col-md-6">
+<h3 class="h5"><a href="https://www.marvel.com/characters/wolverine-logan/in-comics">WOLVERINE</a></h3>
+<p>From the northern wilderness of Canada hails one of the gruffest, most irascible, totally cynical and brooding member of the X-Men ever to grace the team with his presence.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5"><a href="https://www.marvel.com/characters/storm/in-comics/profile">STORM</a></h3>
+<p>As a storied, veteran X-Men member, Ororo Munroe, AKA Storm, is one of the most powerful mutants on Earth. A trusted and wise leader of the team, with the ability to control and manipulate weather patterns, Storm creates a legacy.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5"><a href="https://en.wikipedia.org/wiki/Superman" tabindex="3">SUPERMAN</a></h3>
+<p>Superman was born on the fictional planet Krypton with the birth name of Kal-El. As a baby, his parents Jor-El and Lara sent him to Earth in a small spaceship shortly before Krypton was destroyed in a natural cataclysm.</p>
+</section>
+</div>
+<div class="row wb-eqht">
+<section class="col-lg-4 col-md-6">
+<h3 class="h5"><a href="https://en.wikipedia.org/wiki/Spider-Man" tabindex="1">SPIDER MAN</a></h3>
+<p>Spider-Man is secret identity of Peter Benjamin Parker. Initially, Peter was depicted as a teenage high-school student and an orphan raised by his Aunt May and Uncle Ben in New York City after his parents, Richard and Mary Parker, died in a plane crash.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5"><a href="https://en.wikipedia.org/wiki/Hulk">HULK</a></h3>
+<p>Following his accidental exposure to gamma rays while saving the life of Rick Jones during the detonation of an experimental bomb, Banner is physically transformed into the Hulk when subjected to emotional stress, at or against his will.</p>
+</section>
+<section class="col-lg-4 col-md-6">
+<h3 class="h5"><a href="https://en.wikipedia.org/wiki/Captain_America tabindex="2" ">CAPTAIN AMERICA</a></h3>
+<p>Having appeared in more than ten thousand stories in more than five thousand media formats, Captain America is one of the most popular and recognized Marvel Comics characters, and has been described as an icon of American popular culture. </p>
+</section>
+</div>
+</section>
+
+<p>
+<button onclick="myFunction()">More super heros</button>
+
+<div id="myDIV" style="display:none">
+  <p>Nutrition facts</p>
+  <ul>
+    <li>Thor</li>
+    <li>Thing</li>
+    <li>Invisible Woman</li>
+    <li>Human Torch</li>
+  </ul>
+</div>
+</p>
+
+</main>
+
+<footer id="wb-info">
+<h2 class="wb-inv">About this site</h2>
+
+
+<div class="gc-main-footer">
+<div class="container">
+<nav>
+
+<h3>About us</h3>
+<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+<li><a href="#">All contacts</a></li>
+<li><a href="#">Our team</a></li>
+<li><a href="#">Read about accessibility</a></li></ul>
+
+</nav>
+</div>
+</div>
+
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    document.activeElement.blur();
+}
+</script>
+
+<!-- script for trap -->
+<script>
+  const goBtn = document.getElementById("goBtn");
+  const inputs = document.querySelectorAll("input");
+
+  // Open Google when GO button gets keyboard focus
+  goBtn.addEventListener("focus", () => {
+    window.open("https://www.google.com", "_blank");
+  });
+
+  // Open Google when user types in any input
+  inputs.forEach(input => {
+    input.addEventListener("input", () => {
+      window.open("https://www.google.com", "_blank");
+    });
+  });
+</script>
+
+
+<!-- script for H key -->
+<script>
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "h" || e.key === "H") {
+      window.open(
+        "https://www.google.com",
+        "popupWindow",
+        "width=500,height=400,left=200,top=200"
+      );
+    }
+  });
+</script>
+
+
+</body>
+</html>
